@@ -10,8 +10,8 @@
 #      release.yml pusht nicht automatisch ins externe Tap-Repo):
 #      brew install --cask whispaste/tap/whispaste
 cask "whispaste" do
-  version "1.2.77"
-  sha256 "730eb1e4e2d9f4fa3d5f9f7bc49b436af75b715be8a02810014504ad68a9f23e"
+  version "1.2.79"
+  sha256 "87cfea2e9b3f33bc5fae34b002dc93e09191d0aa47c1f04f1dd2e090836e1663"
 
   url "https://github.com/whispaste/whispaste/releases/download/v#{version}/WhisPaste-#{version}-macos-arm64.zip",
       verified: "github.com/whispaste/whispaste/"
