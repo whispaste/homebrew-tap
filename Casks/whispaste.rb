@@ -6,12 +6,12 @@
 # → "Homebrew Cask (macOS)".
 #
 # Veröffentlicht als eigener Tap: github.com/whispaste/homebrew-tap
-#   -> diese Datei dort als Casks/whispaste.rb (manueller Sync pro Release,
-#      release.yml pusht nicht automatisch ins externe Tap-Repo):
+#   -> diese Datei dort als Casks/whispaste.rb; der Workflow update-manifest.yml
+#      im Tap-Repo setzt pro Release Version und sha256 (packaging/buckets/):
 #      brew install --cask whispaste/tap/whispaste
 cask "whispaste" do
-  version "1.5.1"
-  sha256 "02f6e107ad60b5d45e3114efa33811e72c76938c4a3507b5b4a3c76a1a77f034"
+  version "1.5.2"
+  sha256 "0faa32141f73478d6a610899d8dd193dd09b359f3b799b16d185cf1b0e1b549d"
 
   url "https://github.com/whispaste/whispaste/releases/download/v#{version}/WhisPaste-#{version}-macos-arm64.zip",
       verified: "github.com/whispaste/whispaste/"
